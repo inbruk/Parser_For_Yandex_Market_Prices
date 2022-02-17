@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YandexMarketPricesParser.App", "YandexMarketPricesParser.App\YandexMarketPricesParser.App.csproj", "{9CA850AC-9114-42F8-8BA6-D454E174365A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YandexMarketPricesParser.DAL2CSVFiles", "YandexMarketPricesParser.DAL2CSVFiles\YandexMarketPricesParser.DAL2CSVFiles.csproj", "{414590DE-B0B9-4FD6-9A3C-CC8E8BD02B09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YandexMarketPricesParser.BLCommoditiesInShopsPrices", "YandexMarketPricesParser.BLGoodsInShopsPrices\YandexMarketPricesParser.BLCommoditiesInShopsPrices.csproj", "{3A3635EB-6F9F-481A-B1BA-D8298FE2D6F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YandexMarketPricesParser.PLYandexMarketParser", "YandexMarketPricesParser.PLYandexMarketParser\YandexMarketPricesParser.PLYandexMarketParser.csproj", "{273643FC-EA27-4D59-8B8D-0884386F8A39}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WatInLibrary", "WatInLibrary", "{FF598392-9947-4389-948D-F40B3B328768}"
+	ProjectSection(SolutionItems) = preProject
+		WatInLibrary\Interop.SHDocVw.dll = WatInLibrary\Interop.SHDocVw.dll
+		WatInLibrary\Microsoft.mshtml.dll = WatInLibrary\Microsoft.mshtml.dll
+		WatInLibrary\WatiN.chm = WatInLibrary\WatiN.chm
+		WatInLibrary\WatiN.chw = WatInLibrary\WatiN.chw
+		WatInLibrary\WatiN.Core.dll = WatInLibrary\WatiN.Core.dll
+		WatInLibrary\WatiN.Core.xml = WatInLibrary\WatiN.Core.xml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9CA850AC-9114-42F8-8BA6-D454E174365A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CA850AC-9114-42F8-8BA6-D454E174365A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CA850AC-9114-42F8-8BA6-D454E174365A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CA850AC-9114-42F8-8BA6-D454E174365A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{414590DE-B0B9-4FD6-9A3C-CC8E8BD02B09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{414590DE-B0B9-4FD6-9A3C-CC8E8BD02B09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{414590DE-B0B9-4FD6-9A3C-CC8E8BD02B09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{414590DE-B0B9-4FD6-9A3C-CC8E8BD02B09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A3635EB-6F9F-481A-B1BA-D8298FE2D6F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A3635EB-6F9F-481A-B1BA-D8298FE2D6F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A3635EB-6F9F-481A-B1BA-D8298FE2D6F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A3635EB-6F9F-481A-B1BA-D8298FE2D6F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{273643FC-EA27-4D59-8B8D-0884386F8A39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{273643FC-EA27-4D59-8B8D-0884386F8A39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{273643FC-EA27-4D59-8B8D-0884386F8A39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{273643FC-EA27-4D59-8B8D-0884386F8A39}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C2B61860-9978-4791-80A5-D2030AAA3DC6}
+	EndGlobalSection
+EndGlobal
